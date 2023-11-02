@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@700&family=Roboto+Condensed:ital,wght@1,200&display=swap');
+*{
+    margin: 0px; padding: 0px;
+}
+.navbar{
+    top: 0;  
+    position: fixed; 
+    padding: 10px; 
+    height: 7vh; 
+    width: 100%;
+    background-color: whitesmoke;
+}
+.logo img{
+    border: 2px solid black;
+    margin-top: 5vh;
+    border-radius: 350px;
+    margin-left: 10vh;
+    height: 40px;
+}
+.navbar #links{
+    display: inline;
+}
+.navbar #links a{
+    font-family: 'Nunito';
+     background-color: whitesmoke; 
+     border-radius: 5px; 
+     padding:2vh; 
+     float: right; 
+     text-decoration: none; 
+     color:brown;
+
+}
+.navbar #links #r{
+    margin-right: 10vh;
+}
+.navbar #links :hover{
+    background-color: beige;
+}
+.footer{
+    position: fixed; 
+    bottom:0; 
+    height: 10%; 
+    width: 100%; 
+    background-color: #F1F1F1; 
+    text-align: left;
+}
+.footer p{
+    font-family: 'Roboto Condensed'; 
+    color: black; 
+    padding-left: 25px; 
+    font-size: 15px; 
+    margin-top: 30px; 
+    margin-bottom: -70px;
+}
+.footer .footerlinks a{
+    text-decoration: none; 
+    float:right;
+}
+.footer .footerlinks img{
+    height: 5vh; 
+    border-radius: 360px; 
+    margin-right: 2.5px; 
+    margin-top: 40px;
+}
+.footer .footerlinks .fb{
+    margin-right: 25px;
+}
+
+.banner h1{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 4em; 
+    margin-top: 2.5em; 
+    margin-left: 1em; 
+    margin-right: 1em;
+}
+.banner p{ 
+    font-family: 'Montserrat'; 
+    color:black; 
+    margin-left: 4em; 
+    margin-right: 3em;
+}
+.banner #data {
+    font-family: 'Nunito'; 
+    background-color: beige; 
+    border-radius: 5px; 
+    padding:5px; 
+    text-decoration: none; 
+    color:brown; 
+    margin-left: 4em;
+}
+.banner2{
+    margin-left: 1em; 
+    margin-right: 1em;
+}
+.banner2 h1{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 4em; 
+    margin-top: 1em; 
+    text-align: center;
+}
+.banner2 h2{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 2.5em;
+}
+.banner2 h3{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 1.5em;
+}
+.banner2 p{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 1em; 
+    text-align: justify;
+}
+.school img{
+    float:left ;
+    width: 50%;  
+    margin-right:20px; 
+    margin-left: 20px; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+}
+.q1 p{
+    float: none; 
+    display: inline-block;
+}
+.glevel img{
+    float:left ;
+    width: 50%;  
+    margin-right:20px; 
+    margin-left: 20px; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+}
+.banner3{
+    margin-left: 1em; 
+    margin-right: 1em;
+}
+.banner3 h1{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 4em; 
+    margin-top: 1em; 
+    text-align: center;}
+.banner3{
+    text-align: left;
+}
+.banner3 table{
+    margin-left: 5px; 
+    margin-right: 5px; 
+    width: 100%; 
+    border: 2px solid black;
+}
+.banner3 h2{
+    font-family: 'Montserrat'; 
+    margin-right: 0.5em; 
+    font-size: 1em; 
+    text-align: center;
+}
+.banner3 th{
+    top: 0px; 
+    background-color: beige; 
+    border: 2px solid #000000;
+}
+.banner3 tr{
+    font-family: 'Nunito'; 
+    height: 20px;
+}
+.banner3 td:nth-child(4) {
+    text-align: right; 
+    padding-right: 20px;
+}
+.banner3 td:nth-child(3) {
+    text-align: right; 
+    padding-right: 20px;
+}
+.banner3 td:nth-child(5) {
+    text-align: right; 
+    padding-right: 20px;
+}
+.banner3 tr:hover {
+    background-color: beige;
+}
+.banner5{
+    margin-left: 1em; 
+    margin-right: 1em;
+}
+.banner5 h1{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 4em; 
+    margin-top: 1em; 
+    text-align: center;
+}
+.banner5 p{
+    font-family:'Montserrat'; 
+    color:black; 
+    font-size: 1.5em; 
+    text-align: justify; 
+    margin-top: 1em;
+}
+.banner5 #survey{
+    text-decoration: none; 
+    color:beige;
+}
